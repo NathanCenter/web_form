@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="data.js">
+      
+    </script> 
+</head>
+<body>
+    
+
+
+
+    <h2>Please fill out this form with your information and answer the questions below truthfully</h2>
+    <label>Name:</label><input id="Name"></input>
+<br>    <label>Phone:</label><input id="Phone"> </input>
+   <br> <label>Email:</label><input id="Email"></input>
+</br>   
+    
+    <label>1) Do you hear, but have problems understanding the words?</label></br> 
+    <input type="radio" name="understanding" value="1)Yes">
+    <label for="understanding">Yes</label></br> 
+    <input type="radio" name="understanding" value="1)No">
+    <label for="understanding">No</label> 
+    <br>
+    <label>2) Do you feel left out of group conversations because you can't quite make out what people are saying?</label>
+    <br>
+    <input type="radio" name="leftOut" value="2)Yes"><label for="leftOut">Yes</label>
+    
+    </br> 
+    <input type="radio" name="leftOut" value="2)No">
+    <label for="leftOut">No</label> 
+    <br>
+    <label>3) Do you strain to hear?</label>
+    <br>
+    <input type="radio" name="strainTo" value="3)Yes">
+    <label for="strainToHear">Yes</label>
+    
+    </br> 
+    <input type="radio" name="strainTo" value="3)No">
+    <label for="strainToHear">No</label> 
+    <br>
+    <label>4) Do you find yourself more isolated from friends and family because of your hearing loss?</label>
+    <br>
+    <input type="radio" name="isolated" value="4)Yes">
+    <label for="isolated">Yes</label>
+    </br> 
+    <input type="radio" name="isolated" value="4)No">
+    <label for="isolated">No</label>
+    
+    
+    <br>
+    <label>5) Do you find it hard to hear and to understand words in background noise situations such as restaurants?</label>
+    <br>
+    <input type="radio" name="backgroundNoise" value="5)Yes">
+    
+    <label for="backgroundNoise">Yes</label>
+    </br> 
+    <input type="radio" name="backgroundNoise" value="5)No">
+    <label for="backgroundNoise">No</label>
+    <p> If you answered "yes" to two or more of these questions, you need to see a hearing specialist.</p>
+    <br>
+   
+    <button id="submit"  onclick=displayRadioValue()>Sumbit</button>
+    
+    <br>
+   
+
+</body>
+</html>
